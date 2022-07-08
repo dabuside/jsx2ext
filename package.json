@@ -1,0 +1,35 @@
+{
+  "name": "babel-plugin-jsx2ext",
+  "version": "0.0.1",
+  "description": "transform jsx syntax to extjs style",
+  "main": "src/plugin.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dabuside/jsx2ext.git"
+  },
+  "keywords": [
+    "babel",
+    "ext",
+    "jsx"
+  ],
+  "author": "dabuside",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dabuside/jsx2ext/issues"
+  },
+  "homepage": "https://github.com/dabuside/jsx2ext#readme",
+  "devDependencies": {
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.18.6",
+    "@babel/standalone": "^7.18.8",
+    "@babel/types": "^7.18.8"
+  }
+}
