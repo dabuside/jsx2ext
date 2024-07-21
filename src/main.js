@@ -15,6 +15,7 @@ loader.init().then((monaco) => {
   const jsonEditor = monaco.editor.create(document.getElementById("after"), {
     value: compile(code).transpiled,
     language: "javascript",
+    readOnly: true,
   });
 
   jsxEditor.onDidChangeModelContent(() => {
