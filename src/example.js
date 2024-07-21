@@ -1,4 +1,5 @@
-export default `form.items = 
+export default `
+form.items = 
 <>
   <RadioGroup itemId="ext-jsx" vmodel={long_varable_name} name={_('nice boat')}>
     <Radio checkedValue="A" defaultChecked></Radio>
@@ -12,4 +13,4 @@ export default `form.items =
   </RadioGroup>
   {new Grid({ext_in_jsx: 'awesome'})}
 </>
-`;
+`.trim();

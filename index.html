@@ -7,6 +7,12 @@
     <title>Vite App</title>
   </head>
   <body>
+    <h1>
+      在 Ext 中使用 Jsx
+    </h1>
+    <p>
+      在左侧面板编写/修改 jsx 内容，会自动编译到右侧 JSON 面板，来试试吧
+    </p>
     <div id="container">
         <pre id="pre"></pre>
         <pre id="after"></pre>
@@ -17,11 +23,13 @@
 
 <style>
   #container {
-    display: flex
+    display: flex;
+    gap: 0 30px;
   }
 
   pre {
     flex: 1;
     border: 1px solid;
+    height: 80vh;
   }
 </style>
