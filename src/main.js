@@ -28,7 +28,6 @@ loader.init().then((monaco) => {
       jsonEditor.setValue(transpiled);
     }
   });
-  window.j = jsonEditor;
 });
 
 function compile(code) {
